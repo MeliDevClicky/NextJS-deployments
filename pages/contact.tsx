@@ -5,14 +5,14 @@ import MainLayout from '@/components/layouts/MainLayout'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function AboutPage() {
+export default function ContactPage() {
   return (
     <MainLayout>
-      <h1 className={styles.title}>
-        <Link href="/">
-          Ir a Home
-        </Link>
-      </h1>
+        <h1 className={styles.title}>
+            <Link href="/">
+                Ir a Home
+            </Link>
+        </h1>
     </MainLayout>
   )
 }
